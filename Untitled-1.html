@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <style>
+    /* Reset and base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Header styling */
+    header {
+      background: #222;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 10px;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #4CAF50;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+
+    /* Container */
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 20px auto;
+    }
+
+    /* Section styles */
+    section {
+      margin-bottom: 40px;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #4CAF50;
+      margin-bottom: 15px;
+    }
+
+    /* About */
+    .about p {
+      font-size: 1.1em;
+    }
+
+    /* Projects */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .project-card {
+      background: #f9f9f9;
+      border-radius: 8px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+    .project-card h3 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    /* Contact */
+    .contact p {
+      margin-bottom: 10px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+      margin-top: 40px;
+    }
+
+    /* Responsive nav */
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pranay </h1>
+    <p>Web Developer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>Hello! I am a <strong>Full Stack Developer</strong> with a strong foundation in backend and frontend development. I have experience building dynamic web applications using Java Servlets, JSP, JDBC, along with HTML, CSS, and JavaScript for responsive frontend design. I am passionate about learning new technologies and continuously improving my skills to build efficient and user-friendly software solutions.</p>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Banking Website</h3>
+          <p>A full-stack banking website where users can register, login, update account details, transfer money, view transaction history, and apply for loans..</p>
+        </div>
+        <div class="project-card">
+          <h3>Weather App</h3>
+          <p>Displays real-time weather data using a public API with a user-friendly UI.</p>
+        </div>
+       
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Email: </p>
+      <p>LinkedIn: <a href="#"></a></p>
+      <p>GitHub: <a href="#"></a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
